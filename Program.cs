@@ -7,6 +7,8 @@ namespace Day24PracticeProb
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to LambdaExpression!");
+            LambdaExpression lambdaExpression = new LambdaExpression();
+            lambdaExpression.Validate();
         }
     }
 }
